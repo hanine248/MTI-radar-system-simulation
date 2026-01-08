@@ -21,7 +21,7 @@ The system suppresses stationary clutter using MTI filtering and extracts Dopple
 ### 1️⃣ MTI Radar (Simulink)
 The Simulink model includes
 - Signal generation
-- Delay-line canceller ( ( z^{-1} ) ) for MTI filtering
+- Delay-line canceller ( ( z^-1 ) ) for MTI filtering
 - Subtraction to suppress stationary clutter
 - FFT-based Doppler processing
 - Magnitude spectrum visualization
@@ -35,15 +35,6 @@ After observing Doppler peaks in the FFT output, MATLAB is used to
 - Convert FFT bin indices into Doppler frequencies
 - Compute target radial velocity using the Doppler radar equation
 
-Key equations used
-
-[
-Delta f = frac{text{PRF}}{N}
-]
-
-[
-v = frac{lambda f_d}{2}
-]
 
 Where
 - PRF = Pulse Repetition Frequency
