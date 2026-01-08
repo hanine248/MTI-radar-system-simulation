@@ -58,5 +58,3 @@ Where
 - Accurate radial velocity estimation based on FFT peak locations
 
 ---
-
-## 📁 Project Structure
